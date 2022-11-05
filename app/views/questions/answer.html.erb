@@ -1,0 +1,11 @@
+<div>
+  <h2 class="text-center mt-5 mb-2">Coach says</h2>
+  <div class="d-flex justify-content-center">
+    <div class="justify-content-center w-50 flex-column d-flex">
+      <p class="form-control form-control-lg"><span class="m-3"><em>You:</em></span><strong><%= params[:question] %></strong></p>
+      <p class="form-control form-control-lg"><span class="m-3"><em>Coach:</em></span><strong><%= @answer %></strong></p>
+      <%= link_to 'Ask another question', ask_path, class: "pt-2 btn btn-primary form-control form-control-lg" %>
+      <%# <a><button class="btn btn-primary">Ask another question</button></a> %>
+    </div>
+  </div>
+</div>
