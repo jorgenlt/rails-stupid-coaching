@@ -13,9 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
  #body {
-   background-color: whitesmoke;
-   font-family: 'Ubuntu', sans-serif;
+  background-color: whitesmoke;
+  font-family: 'Ubuntu', sans-serif;
  }
 
 #h1 {

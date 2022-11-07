@@ -2,8 +2,8 @@
   <h2 class="text-center mt-5 mb-2">Ask the coach a question</h2>
   <div class="d-flex justify-content-center">
     <div class="justify-content-center w-50 flex-column d-flex">
-      <form class="" action="/answer" data-turbo="false" method="get">
-        <input class="form-control form-control-lg border mb-2" type="text" name="question" placeholder="Your question goes here" value="<%= params[:question] %>">
+      <form action="/answer" data-turbo="false" method="get">
+        <input class="form-control form-control-lg border mb-2" type="text" name="question" placeholder="Your question goes here" value="<% params[:question] %>">
         <input class="form-control form-control-lg btn btn-primary" type="submit" value="Ask!">
       </form>
     </div>
